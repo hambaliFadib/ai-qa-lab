@@ -1,0 +1,24 @@
+{
+  "id": "LLV1-000016",
+  "timestamp": "2026-04-11T14:27:56.514Z",
+  "module": "workspace-infra",
+  "agent": "engineer",
+  "type": "telegram-bug-reporting-integration",
+  "summary": "Added telegram_bug_reporter MCP and CLI dry-run/send workflow for group bug reporting with local-only Telegram token configuration.",
+  "derived_updates": [
+    "OpenCode now exposes telegram_bug_reporter alongside playwright_cdp, oracle_readonly, and oracle_testdata.",
+    "Bug reports can be generated from JSON templates or direct fields, saved to 05-observability/telegram-reporting/outbox, and sent only with explicit --send or MCP send=true.",
+    "Telegram bot token and chat id are stored only in ignored local env 02-brain/.opencode/config/telegram-bug-reporter.local.env.",
+    "Chat id discovery is available through --get-updates or MCP discover_chats after the bot is added to the target group."
+  ],
+  "evidence_refs": [
+    "01-runtime/tools/telegram-bug-reporter.js",
+    "01-runtime/tools/telegram-bug-reporter-mcp-server.mjs",
+    "02-brain/.opencode/config/telegram-bug-reporter.env.example",
+    "02-brain/.opencode/config/telegram-bug-reporter-setup.md",
+    "06-testing/bug-reports/telegram/_template.bug-report.json",
+    "05-observability/telegram-reporting/README.md"
+  ],
+  "previous_hash": "b2f370f6c79e54de847c7dc9b2ca0e90a4cffef7919750e19f49a0b8e4d703e8",
+  "current_hash": "e2db6e8031af935061aa209ef47affa0b8ad2016ceaea8c32bbc5477a2ff756a"
+}

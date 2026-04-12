@@ -1,0 +1,19 @@
+{
+  "title": "Replace with bug title",
+  "severity": "medium",
+  "module": "replace-module",
+  "status": "new",
+  "summary": "Short bug summary.",
+  "steps": [
+    "Step 1",
+    "Step 2"
+  ],
+  "expected": "Expected result.",
+  "actual": "Actual result.",
+  "evidence": [
+    "01-runtime/artifacts/screenshots/example.png",
+    "05-observability/db-validation/query-results/example.json"
+  ],
+  "environment": "dev-energy",
+  "reporter": "Engineer"
+}

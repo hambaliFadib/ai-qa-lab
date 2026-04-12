@@ -1,0 +1,23 @@
+{
+  "id": "LLV1-000006",
+  "timestamp": "2026-04-06T06:56:15.787Z",
+  "module": "transaction-mapping",
+  "agent": "explorer",
+  "type": "verification",
+  "summary": "CDP verification confirms Transaction Mapping persistence - items B027 and B029 appear in list with 'Waiting Approval' status. Post-submit JS error 'a is not a function' confirmed non-blocking.",
+  "derived_updates": [
+    "runtime/CONTEXT_HANDOFF.md",
+    "runtime/ACTIVE_MODULE.md",
+    "runtime/LAST_RUN_SUMMARY.md",
+    "runtime/BLOCKERS.md",
+    "memory/NEXT_ACTIONS.md",
+    "memory/LEARNED_FLOW.md",
+    "memory/BUG_PATTERNS.md",
+    "ledger/bug_log.csv"
+  ],
+  "evidence_refs": [
+    "01-runtime/artifacts/adhoc-notes/manual-flow-record-latest.md"
+  ],
+  "previous_hash": "5fe7525e8d93fb4d23475588edd513126205dea2e705498b254e3d9c2716665e",
+  "current_hash": "aac7f8267bc5764345d17f261e74111bb83270229b7ede96f517ee0fcd77b48e"
+}

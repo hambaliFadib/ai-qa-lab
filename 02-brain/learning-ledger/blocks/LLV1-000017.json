@@ -1,0 +1,21 @@
+{
+  "id": "LLV1-000017",
+  "timestamp": "2026-04-11T14:40:13.000Z",
+  "module": "telegram-reporting",
+  "agent": "engineer",
+  "type": "integration-validation",
+  "summary": "Telegram bug reporter accepts telegram-bug-reporter.env as a local secret config fallback and successfully sent a smoke-test message to the configured group.",
+  "derived_updates": [
+    "The Telegram reporter CLI now reads both telegram-bug-reporter.local.env and telegram-bug-reporter.env without exposing token contents.",
+    "The Telegram MCP status now reports the active config candidate while keeping send operations gated.",
+    "A live smoke-send succeeded with sent=true and Telegram message_id=20042."
+  ],
+  "evidence_refs": [
+    "05-observability/telegram-reporting/outbox/20260411T143953Z--telegram-config-smoke-dry-run.json",
+    "05-observability/telegram-reporting/outbox/20260411T144013Z--telegram-config-smoke-send.json",
+    "01-runtime/tools/telegram-bug-reporter.js",
+    "01-runtime/tools/telegram-bug-reporter-mcp-server.mjs"
+  ],
+  "previous_hash": "e2db6e8031af935061aa209ef47affa0b8ad2016ceaea8c32bbc5477a2ff756a",
+  "current_hash": "18de76bd9753c331604750ae166a0cce359b2a40e23e0fecdc4121caddba96aa"
+}

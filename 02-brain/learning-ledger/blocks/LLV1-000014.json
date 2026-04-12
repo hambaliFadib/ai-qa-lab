@@ -1,0 +1,20 @@
+{
+  "id": "LLV1-000014",
+  "timestamp": "2026-04-11T13:10:30.982Z",
+  "module": "workspace-infra",
+  "agent": "engineer",
+  "type": "guarded-db-testdata-smoke-passed",
+  "summary": "Validated oracle_testdata guarded DML path with a rollback-only zero-row UPDATE smoke against PGNBILL.M_RBI_BILLING_ITEM; JDBC execution succeeded, affected_rows=0, committed=false.",
+  "derived_updates": [
+    "Configured DB user resolves as schema owner PGNBILL, so direct test-data DML can be attempted through guarded plans when needed.",
+    "DML smoke plan `_smoke.rollback-update-noop.json` proves the injection runner can connect and execute rollback-mode DML without changing data.",
+    "Persistent injection remains gated by saved plan, explicit --apply --commit, plan confirmation token, TESTDATA_DML_COMMIT, schema allowlist, and max affected rows."
+  ],
+  "evidence_refs": [
+    "06-testing/test-data/db-injection/plans/_smoke.rollback-update-noop.json",
+    "05-observability/db-injection/execution-results/20260411T131001Z--rollback-noop-dml-smoke.json",
+    "05-observability/db-validation/query-results/20260411T130555Z--current-db-user.json"
+  ],
+  "previous_hash": "21f914fe423b4277b55283040302f724fd30606843b5457f3542fa5f21420a77",
+  "current_hash": "a63931573020a3a470d8225b35213f9f695403207087dc987faf8d12063141a2"
+}

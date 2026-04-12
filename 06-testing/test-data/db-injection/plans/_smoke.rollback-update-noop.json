@@ -1,0 +1,28 @@
+{
+  "version": "oracle-testdata-plan-v1",
+  "module": "workspace-infra",
+  "purpose": "Smoke-test guarded DML connectivity without changing data. This UPDATE targets zero rows and should be executed in rollback mode only.",
+  "owner": "PGNBILL",
+  "confirmation_token": "CONFIRM_ROLLBACK_NOOP_DML_SMOKE",
+  "allowed_operations": [
+    "update"
+  ],
+  "max_affected_rows": 1,
+  "statements": [
+    {
+      "id": "noop-update-zero-rows",
+      "sql": "update PGNBILL.M_RBI_BILLING_ITEM set BILLING_ITEM_NAME = BILLING_ITEM_NAME where 1 = :ZERO_ROWS_MATCH",
+      "binds": {
+        "ZERO_ROWS_MATCH": "0"
+      }
+    }
+  ],
+  "verification": [
+    {
+      "description": "No data verification is required because the WHERE clause matches zero rows and execution should roll back.",
+      "sql": "select count(*) as affected_candidate_count from PGNBILL.M_RBI_BILLING_ITEM where 1 = 0",
+      "binds": {}
+    }
+  ],
+  "cleanup_note": "No cleanup expected; this plan should affect 0 rows and run in rollback mode."
+}

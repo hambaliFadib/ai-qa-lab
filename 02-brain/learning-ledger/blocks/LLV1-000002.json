@@ -1,0 +1,22 @@
+{
+  "id": "LLV1-000002",
+  "timestamp": "2026-04-05T00:30:00Z",
+  "module": "local-brain",
+  "agent": "system-migrator",
+  "type": "brain-wiring",
+  "summary": "Completed agent, prompt, skill, and distilled-knowledge wiring for auto-learning and BPMN on-demand workflows.",
+  "derived_updates": [
+    "Explorer, Logger, and Debugger were rewritten to read runtime and memory before acting and to persist learning after each run.",
+    "Reusable prompts now cover post-run update, handoff generation, module refresh, BPMN extraction, access stabilization, and module-specific BPMN templates.",
+    "Distilled knowledge packs for transaction-mapping and monitoring-usage were seeded with business flow, dependencies, API, and handoff notes."
+  ],
+  "evidence_refs": [
+    "02-brain/.opencode/agents/explorer.md",
+    "02-brain/.opencode/agents/logger.md",
+    "02-brain/.opencode/agents/debugger.md",
+    "02-brain/.opencode/prompts/bpmn-extraction.md",
+    "02-brain/distilled-output/per-module/monitoring-usage/business-flow.md"
+  ],
+  "previous_hash": "df79f27ead3a8f49aad404440bd96f108fa58b6e6b7fa6b907f5d44ff0cf3a76",
+  "current_hash": "57b1f707c828e5846feec0ae6fa5bb79e333a2cd138c481fbc39a92aaf4c6a6c"
+}

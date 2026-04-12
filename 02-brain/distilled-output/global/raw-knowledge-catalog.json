@@ -1,0 +1,462 @@
+{
+  "generated_at": "2026-04-10T16:18:34.785Z",
+  "workspace_root": ".",
+  "raw_knowledge_root": "04-knowledge-raw",
+  "total_files": 52,
+  "groups": [
+    {
+      "key": "app_testing_standards",
+      "label": "App Testing Standards",
+      "relativeDir": "APP_TESTING_STANDARDS",
+      "preferredUse": "Use first for PGN Billing-specific rules before generic QA standards.",
+      "root_path": "04-knowledge-raw/APP_TESTING_STANDARDS",
+      "file_count": 2,
+      "files": [
+        {
+          "name": "PGN_BILLING_APP_TESTING_STANDARDS.md",
+          "relative_path": "04-knowledge-raw/APP_TESTING_STANDARDS/PGN_BILLING_APP_TESTING_STANDARDS.md",
+          "extension": ".md",
+          "size_bytes": 2704,
+          "modified_at": "2026-04-09T07:16:08.903Z"
+        },
+        {
+          "name": "README.md",
+          "relative_path": "04-knowledge-raw/APP_TESTING_STANDARDS/README.md",
+          "extension": ".md",
+          "size_bytes": 558,
+          "modified_at": "2026-04-09T07:16:08.902Z"
+        }
+      ]
+    },
+    {
+      "key": "mom",
+      "label": "MoM",
+      "relativeDir": "MOM",
+      "preferredUse": "Use for business rules, approval logic, validation expectations, and workshop decisions.",
+      "root_path": "04-knowledge-raw/MOM",
+      "file_count": 8,
+      "files": [
+        {
+          "name": "MOM Bootcamp Modul UAP & RBIP - PGN Billing - 12 Januari 2026 - Day 1.docx",
+          "relative_path": "04-knowledge-raw/MOM/MOM Bootcamp Modul UAP & RBIP - PGN Billing - 12 Januari 2026 - Day 1.docx",
+          "extension": ".docx",
+          "size_bytes": 4024558,
+          "modified_at": "2026-03-02T02:59:07.430Z"
+        },
+        {
+          "name": "MOM Bootcamp Modul UAP & RBIP - PGN Billing - 13 Januari 2026 - Day 2.docx",
+          "relative_path": "04-knowledge-raw/MOM/MOM Bootcamp Modul UAP & RBIP - PGN Billing - 13 Januari 2026 - Day 2.docx",
+          "extension": ".docx",
+          "size_bytes": 1311432,
+          "modified_at": "2026-03-02T02:59:07.389Z"
+        },
+        {
+          "name": "MOM Bootcamp Modul UAP & RBIP - PGN Billing - 14 Januari 2026 - Day 3.docx",
+          "relative_path": "04-knowledge-raw/MOM/MOM Bootcamp Modul UAP & RBIP - PGN Billing - 14 Januari 2026 - Day 3.docx",
+          "extension": ".docx",
+          "size_bytes": 4227237,
+          "modified_at": "2026-03-02T02:59:07.478Z"
+        },
+        {
+          "name": "MOM Bootcamp Modul UAP & RBIP - PGN Billing - 15 Januari 2026 - Day 4.docx",
+          "relative_path": "04-knowledge-raw/MOM/MOM Bootcamp Modul UAP & RBIP - PGN Billing - 15 Januari 2026 - Day 4.docx",
+          "extension": ".docx",
+          "size_bytes": 794862,
+          "modified_at": "2026-03-02T02:59:07.442Z"
+        },
+        {
+          "name": "MOM Review Design Modul Payment - PGN Billing - 23 Februari 2026.docx",
+          "relative_path": "04-knowledge-raw/MOM/MOM Review Design Modul Payment - PGN Billing - 23 Februari 2026.docx",
+          "extension": ".docx",
+          "size_bytes": 1823581,
+          "modified_at": "2026-03-02T02:59:07.578Z"
+        },
+        {
+          "name": "MOM Review Design Payment Guarantee - PGN Billing - 24 Februari 2026.docx",
+          "relative_path": "04-knowledge-raw/MOM/MOM Review Design Payment Guarantee - PGN Billing - 24 Februari 2026.docx",
+          "extension": ".docx",
+          "size_bytes": 3632669,
+          "modified_at": "2026-03-02T02:59:07.620Z"
+        },
+        {
+          "name": "MOM Review Design Tax Exemption & Invoice - PGN Billing - 18 Februari 2026.docx",
+          "relative_path": "04-knowledge-raw/MOM/MOM Review Design Tax Exemption & Invoice - PGN Billing - 18 Februari 2026.docx",
+          "extension": ".docx",
+          "size_bytes": 965618,
+          "modified_at": "2026-03-02T02:59:07.589Z"
+        },
+        {
+          "name": "MOM Workshop RBI & Payment Collection - PGN Billing - 15 Oktober 2025  - Day 1.docx",
+          "relative_path": "04-knowledge-raw/MOM/MOM Workshop RBI & Payment Collection - PGN Billing - 15 Oktober 2025  - Day 1.docx",
+          "extension": ".docx",
+          "size_bytes": 10983889,
+          "modified_at": "2026-03-02T02:59:07.559Z"
+        }
+      ]
+    },
+    {
+      "key": "bpmn_reviewed",
+      "label": "BPMN Reviewed",
+      "relativeDir": "BPMN_BISPRO/Reviewed",
+      "preferredUse": "Use on demand after distilled flow and MoM are still insufficient.",
+      "root_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed",
+      "file_count": 25,
+      "files": [
+        {
+          "name": "Accounting to Posting SAP.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Accounting to Posting SAP.pdf",
+          "extension": ".pdf",
+          "size_bytes": 252427,
+          "modified_at": "2026-04-04T06:40:58.878Z"
+        },
+        {
+          "name": "Adjustment Billing.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Adjustment Billing.pdf",
+          "extension": ".pdf",
+          "size_bytes": 283904,
+          "modified_at": "2026-04-04T06:40:58.868Z"
+        },
+        {
+          "name": "Bad Debt (Collection).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Bad Debt (Collection).pdf",
+          "extension": ".pdf",
+          "size_bytes": 332202,
+          "modified_at": "2026-04-04T06:40:58.889Z"
+        },
+        {
+          "name": "Bad Debt (Impairment).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Bad Debt (Impairment).pdf",
+          "extension": ".pdf",
+          "size_bytes": 309155,
+          "modified_at": "2026-04-04T06:40:58.900Z"
+        },
+        {
+          "name": "Bad Debt (Offset).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Bad Debt (Offset).pdf",
+          "extension": ".pdf",
+          "size_bytes": 328627,
+          "modified_at": "2026-04-04T06:40:58.910Z"
+        },
+        {
+          "name": "Bad Debt (Restructure).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Bad Debt (Restructure).pdf",
+          "extension": ".pdf",
+          "size_bytes": 338288,
+          "modified_at": "2026-04-04T06:40:58.922Z"
+        },
+        {
+          "name": "Bad Debt (Write Off).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Bad Debt (Write Off).pdf",
+          "extension": ".pdf",
+          "size_bytes": 331871,
+          "modified_at": "2026-04-04T06:40:58.932Z"
+        },
+        {
+          "name": "bpmn-batch-2026-04-04 (1).zip",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/bpmn-batch-2026-04-04 (1).zip",
+          "extension": ".zip",
+          "size_bytes": 8534837,
+          "modified_at": "2026-04-04T06:40:45.644Z"
+        },
+        {
+          "name": "Cancel Payment Warranty.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Cancel Payment Warranty.pdf",
+          "extension": ".pdf",
+          "size_bytes": 282106,
+          "modified_at": "2026-04-04T06:40:58.942Z"
+        },
+        {
+          "name": "Installment.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Installment.pdf",
+          "extension": ".pdf",
+          "size_bytes": 332940,
+          "modified_at": "2026-04-04T06:40:58.952Z"
+        },
+        {
+          "name": "Invoice (Hold, Released).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Invoice (Hold, Released).pdf",
+          "extension": ".pdf",
+          "size_bytes": 349951,
+          "modified_at": "2026-04-04T06:40:58.972Z"
+        },
+        {
+          "name": "Invoice Template (Meterai & Signature).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Invoice Template (Meterai & Signature).pdf",
+          "extension": ".pdf",
+          "size_bytes": 308223,
+          "modified_at": "2026-04-04T06:40:58.961Z"
+        },
+        {
+          "name": "Job Duedate Non Retail Gas.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Job Duedate Non Retail Gas.pdf",
+          "extension": ".pdf",
+          "size_bytes": 377715,
+          "modified_at": "2026-04-04T06:40:58.982Z"
+        },
+        {
+          "name": "Job Duedate Retail Gas.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Job Duedate Retail Gas.pdf",
+          "extension": ".pdf",
+          "size_bytes": 354728,
+          "modified_at": "2026-04-04T06:40:58.992Z"
+        },
+        {
+          "name": "Management Smart Meter - Postpaid.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Management Smart Meter - Postpaid.pdf",
+          "extension": ".pdf",
+          "size_bytes": 318599,
+          "modified_at": "2026-04-04T06:40:59.003Z"
+        },
+        {
+          "name": "Management Smart Meter (Postpaid - Open Isolated).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Management Smart Meter (Postpaid - Open Isolated).pdf",
+          "extension": ".pdf",
+          "size_bytes": 339252,
+          "modified_at": "2026-04-04T06:40:59.015Z"
+        },
+        {
+          "name": "Management Smart Meter (Prepaid Top Up).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Management Smart Meter (Prepaid Top Up).pdf",
+          "extension": ".pdf",
+          "size_bytes": 355311,
+          "modified_at": "2026-04-04T06:40:59.024Z"
+        },
+        {
+          "name": "Payment Warranty (Hold, Released).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Payment Warranty (Hold, Released).pdf",
+          "extension": ".pdf",
+          "size_bytes": 357974,
+          "modified_at": "2026-04-04T06:40:59.035Z"
+        },
+        {
+          "name": "Payment Warranty (Refund).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Payment Warranty (Refund).pdf",
+          "extension": ".pdf",
+          "size_bytes": 347839,
+          "modified_at": "2026-04-04T06:40:59.045Z"
+        },
+        {
+          "name": "Payment Warranty Deduction.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Payment Warranty Deduction.pdf",
+          "extension": ".pdf",
+          "size_bytes": 525448,
+          "modified_at": "2026-04-04T06:40:59.058Z"
+        },
+        {
+          "name": "Point of Sales.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Point of Sales.pdf",
+          "extension": ".pdf",
+          "size_bytes": 334885,
+          "modified_at": "2026-04-04T06:40:59.069Z"
+        },
+        {
+          "name": "Transfer Payment Warranty to Customer.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Transfer Payment Warranty to Customer.pdf",
+          "extension": ".pdf",
+          "size_bytes": 451526,
+          "modified_at": "2026-04-04T06:40:58.808Z"
+        },
+        {
+          "name": "Transfer Payment Warranty to Receipt.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Transfer Payment Warranty to Receipt.pdf",
+          "extension": ".pdf",
+          "size_bytes": 483928,
+          "modified_at": "2026-04-04T06:40:58.826Z"
+        },
+        {
+          "name": "Transfer Receipt to Customer.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Transfer Receipt to Customer.pdf",
+          "extension": ".pdf",
+          "size_bytes": 352412,
+          "modified_at": "2026-04-04T06:40:58.846Z"
+        },
+        {
+          "name": "Transfer Receipt to Payment Warranty.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Reviewed/Transfer Receipt to Payment Warranty.pdf",
+          "extension": ".pdf",
+          "size_bytes": 481624,
+          "modified_at": "2026-04-04T06:40:58.859Z"
+        }
+      ]
+    },
+    {
+      "key": "bpmn_ready_to_review",
+      "label": "BPMN Ready To Review",
+      "relativeDir": "BPMN_BISPRO/Ready To Review",
+      "preferredUse": "Use only when the reviewed BPMN set does not cover the module yet.",
+      "root_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review",
+      "file_count": 10,
+      "files": [
+        {
+          "name": "Adjustment Billing (Update).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/Adjustment Billing (Update).pdf",
+          "extension": ".pdf",
+          "size_bytes": 265697,
+          "modified_at": "2026-04-04T06:40:23.739Z"
+        },
+        {
+          "name": "Adjustment Invoice.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/Adjustment Invoice.pdf",
+          "extension": ".pdf",
+          "size_bytes": 267890,
+          "modified_at": "2026-04-04T06:40:23.749Z"
+        },
+        {
+          "name": "bpmn-batch-2026-04-04.zip",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/bpmn-batch-2026-04-04.zip",
+          "extension": ".zip",
+          "size_bytes": 2785611,
+          "modified_at": "2026-04-04T06:39:29.241Z"
+        },
+        {
+          "name": "Case Unpayment.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/Case Unpayment.pdf",
+          "extension": ".pdf",
+          "size_bytes": 330040,
+          "modified_at": "2026-04-04T06:40:23.758Z"
+        },
+        {
+          "name": "Gas Deposit.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/Gas Deposit.pdf",
+          "extension": ".pdf",
+          "size_bytes": 295838,
+          "modified_at": "2026-04-04T06:40:23.767Z"
+        },
+        {
+          "name": "Main Flow Calculation to Accounting (Updated 04_12_25).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/Main Flow Calculation to Accounting (Updated 04_12_25).pdf",
+          "extension": ".pdf",
+          "size_bytes": 299547,
+          "modified_at": "2026-04-04T06:40:23.775Z"
+        },
+        {
+          "name": "Main Flow Calculation to Accounting (Updated 14_11_25).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/Main Flow Calculation to Accounting (Updated 14_11_25).pdf",
+          "extension": ".pdf",
+          "size_bytes": 303290,
+          "modified_at": "2026-04-04T06:40:23.685Z"
+        },
+        {
+          "name": "Main Flow Calculation to Accounting (Updated 28_10_25).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/Main Flow Calculation to Accounting (Updated 28_10_25).pdf",
+          "extension": ".pdf",
+          "size_bytes": 367245,
+          "modified_at": "2026-04-04T06:40:23.704Z"
+        },
+        {
+          "name": "Master Data.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/Master Data.pdf",
+          "extension": ".pdf",
+          "size_bytes": 373772,
+          "modified_at": "2026-04-04T06:40:23.722Z"
+        },
+        {
+          "name": "Tax Exemption.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Ready To Review/Tax Exemption.pdf",
+          "extension": ".pdf",
+          "size_bytes": 280726,
+          "modified_at": "2026-04-04T06:40:23.731Z"
+        }
+      ]
+    },
+    {
+      "key": "bpmn_revise",
+      "label": "BPMN Revise",
+      "relativeDir": "BPMN_BISPRO/Revise",
+      "preferredUse": "Treat as lower-confidence raw flow input until a reviewed version exists.",
+      "root_path": "04-knowledge-raw/BPMN_BISPRO/Revise",
+      "file_count": 3,
+      "files": [
+        {
+          "name": "bpmn-batch-2026-04-04.zip",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Revise/bpmn-batch-2026-04-04.zip",
+          "extension": ".zip",
+          "size_bytes": 456576,
+          "modified_at": "2026-04-04T06:41:45.911Z"
+        },
+        {
+          "name": "Calculation Rating Basic (Updated).pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Revise/Calculation Rating Basic (Updated).pdf",
+          "extension": ".pdf",
+          "size_bytes": 218755,
+          "modified_at": "2026-04-04T06:42:06.004Z"
+        },
+        {
+          "name": "Calculation Rating Basic.pdf",
+          "relative_path": "04-knowledge-raw/BPMN_BISPRO/Revise/Calculation Rating Basic.pdf",
+          "extension": ".pdf",
+          "size_bytes": 237379,
+          "modified_at": "2026-04-04T06:42:05.984Z"
+        }
+      ]
+    },
+    {
+      "key": "qa_ui",
+      "label": "QA Standards UI",
+      "relativeDir": "QA_STANDARDS/UI",
+      "preferredUse": "Use for UI behavior, usability expectations, and presentation-layer validation.",
+      "root_path": "04-knowledge-raw/QA_STANDARDS/UI",
+      "file_count": 1,
+      "files": [
+        {
+          "name": "STANDARISASI QA FULL EDITION [ UI & UX - TEST ] v2.pdf",
+          "relative_path": "04-knowledge-raw/QA_STANDARDS/UI/STANDARISASI QA FULL EDITION [ UI & UX - TEST ] v2.pdf",
+          "extension": ".pdf",
+          "size_bytes": 5207445,
+          "modified_at": "2025-09-03T22:39:35.342Z"
+        }
+      ]
+    },
+    {
+      "key": "qa_api",
+      "label": "QA Standards API",
+      "relativeDir": "QA_STANDARDS/API",
+      "preferredUse": "Use for endpoint behavior, status codes, payload validation, and contract checks.",
+      "root_path": "04-knowledge-raw/QA_STANDARDS/API",
+      "file_count": 1,
+      "files": [
+        {
+          "name": "STANDARISASI API Test.pdf",
+          "relative_path": "04-knowledge-raw/QA_STANDARDS/API/STANDARISASI API Test.pdf",
+          "extension": ".pdf",
+          "size_bytes": 1488628,
+          "modified_at": "2025-09-03T22:39:35.298Z"
+        }
+      ]
+    },
+    {
+      "key": "qa_automation",
+      "label": "QA Standards Automation",
+      "relativeDir": "QA_STANDARDS/AUTOMATION",
+      "preferredUse": "Use for selector strategy, retries, waits, focus, wrappers, and automation discipline.",
+      "root_path": "04-knowledge-raw/QA_STANDARDS/AUTOMATION",
+      "file_count": 1,
+      "files": [
+        {
+          "name": "STANDARISASI QA FULL EDITION [ UI & UX - TEST ] v2.pdf",
+          "relative_path": "04-knowledge-raw/QA_STANDARDS/AUTOMATION/STANDARISASI QA FULL EDITION [ UI & UX - TEST ] v2.pdf",
+          "extension": ".pdf",
+          "size_bytes": 5207445,
+          "modified_at": "2025-09-03T22:39:35.342Z"
+        }
+      ]
+    },
+    {
+      "key": "qa_test_data",
+      "label": "QA Standards Test Data",
+      "relativeDir": "QA_STANDARDS/TEST_DATA",
+      "preferredUse": "Use for test data coverage, seeding rules, and data quality expectations.",
+      "root_path": "04-knowledge-raw/QA_STANDARDS/TEST_DATA",
+      "file_count": 1,
+      "files": [
+        {
+          "name": "Standarisasi Data Testing.pdf",
+          "relative_path": "04-knowledge-raw/QA_STANDARDS/TEST_DATA/Standarisasi Data Testing.pdf",
+          "extension": ".pdf",
+          "size_bytes": 782764,
+          "modified_at": "2025-09-03T22:39:35.268Z"
+        }
+      ]
+    }
+  ]
+}

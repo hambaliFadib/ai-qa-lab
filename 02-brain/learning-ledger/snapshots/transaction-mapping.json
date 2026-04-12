@@ -1,0 +1,39 @@
+﻿{
+  "module": "transaction-mapping",
+  "snapshot_at": "2026-04-06T03:44:35.143Z",
+  "status": "manual-recorded-follow-up",
+  "actors": [
+    "QA tester",
+    "PGN Billing UI",
+    "Billing item API"
+  ],
+  "flow_outline": [
+    "Open Transaction Mapping list",
+    "Enter create page",
+    "Fill mandatory reference and text fields",
+    "Add the required attachment",
+    "Click Save, Submit, and Confirm",
+    "Return to the list and verify the created row"
+  ],
+  "dependencies": [
+    "Stable dev-energy access",
+    "Reference data for dropdowns",
+    "Approval hierarchy detail",
+    "Attachment category data"
+  ],
+  "known_api": [
+    "GET /rbi/v1/dbs/api/billingitem/get-paging",
+    "GET /rbi/v1/dbs/api/billingitem/get-billing-category",
+    "POST /rbi/v1/dbs/api/billingitem/generate-code",
+    "GET /rbi/v1/dbs/api/billingitem/approval-hierarchies-detail/:id",
+    "GET /rbi/v1/dbs/api/billingitem/category-attachment-get",
+    "POST /rbi/v1/dbs/api/billingitem/validate-create",
+    "POST /rbi/v1/dbs/api/billingitem/create",
+    "POST /rbi/v1/dbs/api/billingitem/attachment-upload"
+  ],
+  "next_focus": [
+    "Verify whether the created row is visible after redirect",
+    "Triage the post-submit frontend error `a is not a function`",
+    "Reuse the latest manual flow record before another exploratory retry"
+  ]
+}

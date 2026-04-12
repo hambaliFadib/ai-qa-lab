@@ -1,0 +1,24 @@
+{
+  "id": "LLV1-000010",
+  "timestamp": "2026-04-06T07:55:00Z",
+  "module": "transaction-mapping",
+  "agent": "runtime-sync",
+  "type": "evidence-reconciliation",
+  "summary": "Reconciled Transaction Mapping state so verified product completion and persistence remain the source of truth while Approval Hierarchy stays documented as an automation caveat.",
+  "derived_updates": [
+    "Restored runtime files to a merged state that keeps completed product truth and records the automation caveat separately.",
+    "Added run-reconciliation guidance to memory and recurring patterns so weaker reruns do not overwrite stronger verified evidence.",
+    "Added guardrails to Explorer, orchestration, and workspace rules to prevent evidence downgrades without reconciliation."
+  ],
+  "evidence_refs": [
+    "01-runtime/runtime/ACTIVE_MODULE.md",
+    "01-runtime/runtime/CONTEXT_HANDOFF.md",
+    "01-runtime/runtime/BLOCKERS.md",
+    "01-runtime/runtime/LAST_RUN_SUMMARY.md",
+    "02-brain/.opencode/memory/NEXT_ACTIONS.md",
+    "02-brain/learning-ledger/blocks/LLV1-000004.json",
+    "02-brain/learning-ledger/blocks/LLV1-000009.json"
+  ],
+  "previous_hash": "396ceecd369896c8b269283e21952bc26922bf9119ab055cca12b48f5774b600",
+  "current_hash": "cb70b45b25404a0cad528e87bd04ffcdc4eb70377de27a1c8dd8508b87fc5706"
+}

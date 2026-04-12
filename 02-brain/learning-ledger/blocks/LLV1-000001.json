@@ -1,0 +1,22 @@
+{
+  "id": "LLV1-000001",
+  "timestamp": "2026-04-05T00:00:00Z",
+  "module": "workspace-migration",
+  "agent": "system-migrator",
+  "type": "structure-migration",
+  "summary": "Migrated the workspace into the new local-brain layout and initialized Learning Ledger v1.",
+  "derived_updates": [
+    "Created 01-runtime, 02-brain, 03-auth, 04-knowledge-raw, 05-observability, and 06-testing as active layers.",
+    "Moved existing .opencode, distilled knowledge, auth state, runtime docs, and testing folders into the new structure.",
+    "Seeded prompts, skills, memory, module knowledge, and snapshots for transaction-mapping and monitoring-usage."
+  ],
+  "evidence_refs": [
+    "README.md",
+    "01-runtime/runtime/CONTEXT_HANDOFF.md",
+    "02-brain/learning-ledger/snapshots/global-brain.json",
+    "02-brain/distilled-output/per-module/transaction-mapping/handoff.md",
+    "99-archive/migration-20260405/README.md"
+  ],
+  "previous_hash": "GENESIS",
+  "current_hash": "df79f27ead3a8f49aad404440bd96f108fa58b6e6b7fa6b907f5d44ff0cf3a76"
+}

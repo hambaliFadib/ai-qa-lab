@@ -1,0 +1,23 @@
+{
+  "id": "LLV1-000008",
+  "timestamp": "2026-04-06T04:15:00Z",
+  "module": "local-brain",
+  "agent": "runtime-sync",
+  "type": "qa-standards-wiring",
+  "summary": "Wired QA standards routing into Explorer, Logger, Debugger, and auto orchestration so UI, API, automation, and test-data standards are read on-demand.",
+  "derived_updates": [
+    "Added a global QA standards routing map so the chain can choose the smallest relevant raw standards source by domain.",
+    "Updated Explorer, Logger, and Debugger to consult QA standards when expected behavior, severity, reproducibility, or test method is unclear.",
+    "Updated workspace rules and orchestration prompt so QA_STANDARDS is now part of the reusable local brain flow."
+  ],
+  "evidence_refs": [
+    "02-brain/distilled-output/global/qa-standards-routing.md",
+    "02-brain/.opencode/agents/explorer.md",
+    "02-brain/.opencode/agents/logger.md",
+    "02-brain/.opencode/agents/debugger.md",
+    "02-brain/.opencode/prompts/auto-orchestration.md",
+    "02-brain/.opencode/config/workspace-rules.md"
+  ],
+  "previous_hash": "799827a6072fe58996a4fa8363aad64bf78f17aa5e969551b2d32d03d7363ef5",
+  "current_hash": "152dd0571bee8247a8a7c2565098ffbfd451c57f4b4402d582fa06b565e21f84"
+}

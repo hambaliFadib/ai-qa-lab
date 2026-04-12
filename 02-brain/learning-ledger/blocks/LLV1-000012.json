@@ -1,0 +1,30 @@
+{
+  "id": "LLV1-000012",
+  "timestamp": "2026-04-09T08:14:00.000Z",
+  "module": "monitoring-usage",
+  "agent": "engineer",
+  "type": "db-validation",
+  "summary": "Validated USD-pricing accounts against Prabill usage and found zero current overlap despite populated usage table volume.",
+  "derived_updates": [
+    "01-runtime/runtime/CONTEXT_HANDOFF.md",
+    "01-runtime/runtime/ACTIVE_MODULE.md",
+    "01-runtime/runtime/LAST_RUN_SUMMARY.md",
+    "01-runtime/runtime/BLOCKERS.md",
+    "02-brain/.opencode/memory/NEXT_ACTIONS.md",
+    "02-brain/.opencode/memory/LEARNED_FLOW.md",
+    "02-brain/.opencode/memory/BUG_PATTERNS.md",
+    "02-brain/distilled-output/per-module/monitoring-usage/test-notes.md",
+    "02-brain/distilled-output/per-module/monitoring-usage/validation-rules.md",
+    "02-brain/distilled-output/per-module/monitoring-usage/dependencies.md",
+    "02-brain/distilled-output/per-module/monitoring-usage/handoff.md"
+  ],
+  "evidence_refs": [
+    "05-observability/db-validation/query-results/20260409T081130Z--prabill-usage-total-rows.json",
+    "05-observability/db-validation/query-results/20260409T081206Z--sample-usd-sa-account-number.json",
+    "05-observability/db-validation/query-results/20260409T081222Z--usd-sa-accounts-usage-check-per-account.json",
+    "05-observability/db-validation/query-results/20260409T081319Z--usd-usage-overlap-exists-check.json",
+    "05-observability/db-validation/query-results/20260409T081340Z--usd-sa-account-id-usage-check-per-account.json"
+  ],
+  "previous_hash": "9d1f6bc18a35241149e795af954fc550d2df8b7dda5a57c0465c53ade3be859e",
+  "current_hash": "deb050fab94bfb6056d500d2ccf3cde7f67658820588bea75a3c8ade5aaa73b9"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "playwright_cdp": {
+      "type": "local",
+      "command": [
+        "node",
+        "01-runtime/tools/playwright-mcp-server.mjs"
+      ],
+      "enabled": true,
+      "timeout": 30000
+    },
+    "oracle_readonly": {
+      "type": "local",
+      "command": [
+        "node",
+        "01-runtime/tools/oracle-readonly-mcp-server.mjs"
+      ],
+      "enabled": true,
+      "timeout": 20000
+    },
+    "oracle_testdata": {
+      "type": "local",
+      "command": [
+        "node",
+        "01-runtime/tools/oracle-testdata-mcp-server.mjs"
+      ],
+      "enabled": true,
+      "timeout": 30000
+    },
+    "telegram_bug_reporter": {
+      "type": "local",
+      "command": [
+        "node",
+        "01-runtime/tools/telegram-bug-reporter-mcp-server.mjs"
+      ],
+      "enabled": true,
+      "timeout": 30000
+    }
+  }
+}

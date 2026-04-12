@@ -1,0 +1,25 @@
+{
+  "id": "LLV1-000015",
+  "timestamp": "2026-04-11T13:30:10.344Z",
+  "module": "tax-code",
+  "agent": "engineer",
+  "type": "ui-functional-check-list-controls",
+  "summary": "Executed Tax Code list-level functional checks via Playwright CDP: Advanced Search controls, Refresh, Create->Cancel->Confirm return, profile dropdown, Download List, and Column Settings all ran without visible product error; row-action/filter-target selectors showed intermittent automation timeout caveat.",
+  "derived_updates": [
+    "Tax Code list-level controls are operational for the executed scope on dev-energy.",
+    "Advanced Search modal supports Add Linear Filter, Add Filter Rules, Clear Filter, and Cancel in current UI.",
+    "Create Tax Code route opens and cancel confirmation flow returns safely to list page.",
+    "Row-level ACTION descendants and direct per-column filter trigger probes can intermittently timeout in automation and should use stronger selector/wait strategy before classifying product defects."
+  ],
+  "evidence_refs": [
+    "01-runtime/runtime/docs/LAST_RUN_SUMMARY.md",
+    "02-brain/distilled-output/per-module/tax-code/test-notes.md",
+    "01-runtime/artifacts/screenshots/playwright-mcp-1775913684616-tax-code-baseline.png",
+    "01-runtime/artifacts/screenshots/playwright-mcp-1775913902590-tax-code-advanced-search-open.png",
+    "01-runtime/artifacts/screenshots/playwright-mcp-1775913913166-tax-code-advanced-search-linear-filter-added.png",
+    "01-runtime/artifacts/screenshots/playwright-mcp-1775913917291-tax-code-advanced-search-filter-rules-added.png",
+    "01-runtime/artifacts/screenshots/playwright-mcp-1775913974456-tax-code-final-state-after-functional-pass.png"
+  ],
+  "previous_hash": "a63931573020a3a470d8225b35213f9f695403207087dc987faf8d12063141a2",
+  "current_hash": "b2f370f6c79e54de847c7dc9b2ca0e90a4cffef7919750e19f49a0b8e4d703e8"
+}

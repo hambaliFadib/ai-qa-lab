@@ -1,0 +1,25 @@
+{
+  "id": "LLV1-000013",
+  "timestamp": "2026-04-11T12:45:59.925Z",
+  "module": "workspace-infra",
+  "agent": "engineer",
+  "type": "guarded-db-testdata-and-flow-testcase-tooling",
+  "summary": "Added guarded Oracle test-data DML tooling as a separate oracle_testdata MCP and added BPMN-vs-MoM testcase generation rules that require Playwright MCP evidence before confirming UI test steps.",
+  "derived_updates": [
+    "Kept oracle_readonly strictly read-only while introducing oracle_testdata for explicit saved-plan DML only.",
+    "Added dry-run-by-default DB injection plans under 06-testing/test-data/db-injection/plans and execution evidence under 05-observability/db-injection/execution-results.",
+    "Persistent DB test-data commit now requires --apply --commit, a plan confirmation token, and TESTDATA_DML_COMMIT.",
+    "Added BPMN/MoM testcase comparator skill and prompt requiring raw catalog selection, MoM+BPMN reconciliation, Playwright MCP UI evidence, and Oracle read-only persistence checks when needed."
+  ],
+  "evidence_refs": [
+    "01-runtime/tools/oracle-testdata-injector.js",
+    "01-runtime/tools/oracle-testdata-mcp-server.mjs",
+    "01-runtime/tools/OracleTestdataDmlJdbcRunner.java",
+    "06-testing/test-data/db-injection/plans/_template.insert-testdata.json",
+    "02-brain/.opencode/skills/bpmn-mom-testcase-comparator/SKILL.md",
+    "02-brain/.opencode/prompts/bpmn-mom-testcase-generation.md",
+    "opencode.json"
+  ],
+  "previous_hash": "deb050fab94bfb6056d500d2ccf3cde7f67658820588bea75a3c8ade5aaa73b9",
+  "current_hash": "21f914fe423b4277b55283040302f724fd30606843b5457f3542fa5f21420a77"
+}

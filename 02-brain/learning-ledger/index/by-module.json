@@ -1,0 +1,213 @@
+{
+  "workspace-migration": [
+    {
+      "id": "LLV1-000001",
+      "timestamp": "2026-04-05T00:00:00Z",
+      "module": "workspace-migration",
+      "type": "structure-migration",
+      "summary": "Migrated the workspace into the new local-brain layout and initialized Learning Ledger v1.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000001.json",
+      "current_hash": "df79f27ead3a8f49aad404440bd96f108fa58b6e6b7fa6b907f5d44ff0cf3a76"
+    }
+  ],
+  "local-brain": [
+    {
+      "id": "LLV1-000008",
+      "timestamp": "2026-04-06T04:15:00Z",
+      "module": "local-brain",
+      "type": "qa-standards-wiring",
+      "summary": "Wired QA standards routing into Explorer, Logger, Debugger, and auto orchestration so UI, API, automation, and test-data standards are read on-demand.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000008.json",
+      "current_hash": "152dd0571bee8247a8a7c2565098ffbfd451c57f4b4402d582fa06b565e21f84"
+    },
+    {
+      "id": "LLV1-000002",
+      "timestamp": "2026-04-05T00:30:00Z",
+      "module": "local-brain",
+      "type": "brain-wiring",
+      "summary": "Completed agent, prompt, skill, and distilled-knowledge wiring for auto-learning and BPMN on-demand workflows.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000002.json",
+      "current_hash": "57b1f707c828e5846feec0ae6fa5bb79e333a2cd138c481fbc39a92aaf4c6a6c"
+    }
+  ],
+  "transaction-mapping": [
+    {
+      "id": "LLV1-000010",
+      "timestamp": "2026-04-06T07:55:00Z",
+      "module": "transaction-mapping",
+      "type": "evidence-reconciliation",
+      "summary": "Reconciled Transaction Mapping state so verified product completion and persistence remain the source of truth while Approval Hierarchy stays documented as an automation caveat.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000010.json",
+      "current_hash": "cb70b45b25404a0cad528e87bd04ffcdc4eb70377de27a1c8dd8508b87fc5706"
+    },
+    {
+      "id": "LLV1-000007",
+      "timestamp": "2026-04-06T07:30:00.000Z",
+      "module": "transaction-mapping",
+      "type": "validation-testing",
+      "summary": "Validation testing complete - 8 required fields confirmed. Positive tests passed. Negative tests: special chars passed, duplicate name blocked by Approval Hierarchy automation issue.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000007.json",
+      "current_hash": "799827a6072fe58996a4fa8363aad64bf78f17aa5e969551b2d32d03d7363ef5"
+    },
+    {
+      "id": "LLV1-000006",
+      "timestamp": "2026-04-06T06:56:15.787Z",
+      "module": "transaction-mapping",
+      "type": "verification",
+      "summary": "CDP verification confirms Transaction Mapping persistence - items B027 and B029 appear in list with 'Waiting Approval' status. Post-submit JS error 'a is not a function' confirmed non-blocking.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000006.json",
+      "current_hash": "aac7f8267bc5764345d17f261e74111bb83270229b7ede96f517ee0fcd77b48e"
+    },
+    {
+      "id": "LLV1-000005",
+      "timestamp": "2026-04-06T06:45:00.000Z",
+      "module": "transaction-mapping",
+      "type": "manual-create-success",
+      "summary": "Transaction Mapping create flow verified through manual testing - item B029 (test) created successfully and persisted in list with 'Waiting Approval' status. Items B027 (test QA Auto) and B029 confirmed in list.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000005.json",
+      "current_hash": "5fe7525e8d93fb4d23475588edd513126205dea2e705498b254e3d9c2716665e"
+    },
+    {
+      "id": "LLV1-000004",
+      "timestamp": "2026-04-06T04:05:00.000Z",
+      "module": "transaction-mapping",
+      "type": "persistence-verification",
+      "summary": "Verified Transaction Mapping create persistence - created item 'test QA Auto' appears correctly in list with 'Waiting Approval' status. Confirmed post-submit JS error 'a is not a function' is non-blocking frontend issue.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000004.json",
+      "current_hash": "c59e5604d74801fb95db3fcd98dc749a905d0a6966d428e4328cc305857f7d00"
+    },
+    {
+      "id": "LLV1-000003",
+      "timestamp": "2026-04-06T03:44:35.143Z",
+      "module": "transaction-mapping",
+      "type": "manual-flow-sync",
+      "summary": "Synchronized runtime and module knowledge after a manual Transaction Mapping create record reached Save, Submit, Confirm, and return-to-list.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000003.json",
+      "current_hash": "3b912df1db8571c2fe15678d8ebf1cd50e04f7462f95e0033a3c92f0fc4a4895"
+    }
+  ],
+  "Transaction Mapping": [
+    {
+      "id": "LLV1-000009",
+      "timestamp": "2026-04-06T07:40:00.000Z",
+      "module": "Transaction Mapping",
+      "type": "automation-issue-identified",
+      "summary": "Positive create test: 7/8 fields filled via CDP automation. Approval Hierarchy field cannot be automated due to lazy rendering (0x0 dimensions until scroll). This is an automation limitation, not a product bug.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000009.json",
+      "current_hash": "396ceecd369896c8b269283e21952bc26922bf9119ab055cca12b48f5774b600"
+    }
+  ],
+  "global-brain": [
+    {
+      "id": "LLV1-000011",
+      "timestamp": "2026-04-08T02:53:53.113Z",
+      "module": "global-brain",
+      "type": "engineer-rollout",
+      "summary": "Unified the workspace into a single Engineer role, added Playwright MCP, and upgraded recall memory with user preference capture.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000011.json",
+      "current_hash": "9d1f6bc18a35241149e795af954fc550d2df8b7dda5a57c0465c53ade3be859e"
+    }
+  ],
+  "monitoring-usage": [
+    {
+      "id": "LLV1-000012",
+      "timestamp": "2026-04-09T08:14:00.000Z",
+      "module": "monitoring-usage",
+      "type": "db-validation",
+      "summary": "Validated USD-pricing accounts against Prabill usage and found zero current overlap despite populated usage table volume.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000012.json",
+      "current_hash": "deb050fab94bfb6056d500d2ccf3cde7f67658820588bea75a3c8ade5aaa73b9"
+    }
+  ],
+  "workspace-infra": [
+    {
+      "id": "LLV1-000016",
+      "timestamp": "2026-04-11T14:27:56.514Z",
+      "module": "workspace-infra",
+      "type": "telegram-bug-reporting-integration",
+      "summary": "Added telegram_bug_reporter MCP and CLI dry-run/send workflow for group bug reporting with local-only Telegram token configuration.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000016.json",
+      "current_hash": "e2db6e8031af935061aa209ef47affa0b8ad2016ceaea8c32bbc5477a2ff756a"
+    },
+    {
+      "id": "LLV1-000014",
+      "timestamp": "2026-04-11T13:10:30.982Z",
+      "module": "workspace-infra",
+      "type": "guarded-db-testdata-smoke-passed",
+      "summary": "Validated oracle_testdata guarded DML path with a rollback-only zero-row UPDATE smoke against PGNBILL.M_RBI_BILLING_ITEM; JDBC execution succeeded, affected_rows=0, committed=false.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000014.json",
+      "current_hash": "a63931573020a3a470d8225b35213f9f695403207087dc987faf8d12063141a2"
+    },
+    {
+      "id": "LLV1-000013",
+      "timestamp": "2026-04-11T12:45:59.925Z",
+      "module": "workspace-infra",
+      "type": "guarded-db-testdata-and-flow-testcase-tooling",
+      "summary": "Added guarded Oracle test-data DML tooling as a separate oracle_testdata MCP and added BPMN-vs-MoM testcase generation rules that require Playwright MCP evidence before confirming UI test steps.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000013.json",
+      "current_hash": "21f914fe423b4277b55283040302f724fd30606843b5457f3542fa5f21420a77"
+    }
+  ],
+  "tax-code": [
+    {
+      "id": "LLV1-000020",
+      "timestamp": "2026-04-11T15:17:00.101Z",
+      "module": "tax-code",
+      "type": "bug-confirmation-condition-enddate-autofill",
+      "summary": "Confirmed Tax Code condition-row bug: End Date auto-populates to Start Date after save even when End Date was not explicitly entered.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000020.json",
+      "current_hash": "8297e8159e0eca297bf567d0d14b0a2d1e025611f08c6f21eaa7de9f232d4312"
+    },
+    {
+      "id": "LLV1-000015",
+      "timestamp": "2026-04-11T13:30:10.344Z",
+      "module": "tax-code",
+      "type": "ui-functional-check-list-controls",
+      "summary": "Executed Tax Code list-level functional checks via Playwright CDP: Advanced Search controls, Refresh, Create->Cancel->Confirm return, profile dropdown, Download List, and Column Settings all ran without visible product error; row-action/filter-target selectors showed intermittent automation timeout caveat.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000015.json",
+      "current_hash": "b2f370f6c79e54de847c7dc9b2ca0e90a4cffef7919750e19f49a0b8e4d703e8"
+    }
+  ],
+  "telegram-reporting": [
+    {
+      "id": "LLV1-000017",
+      "timestamp": "2026-04-11T14:40:13.000Z",
+      "module": "telegram-reporting",
+      "type": "integration-validation",
+      "summary": "Telegram bug reporter accepts telegram-bug-reporter.env as a local secret config fallback and successfully sent a smoke-test message to the configured group.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000017.json",
+      "current_hash": "18de76bd9753c331604750ae166a0cce359b2a40e23e0fecdc4121caddba96aa"
+    }
+  ],
+  "opencode-memory": [
+    {
+      "id": "LLV1-000019",
+      "timestamp": "2026-04-11T15:08:05.000Z",
+      "module": "opencode-memory",
+      "type": "memory-governance",
+      "summary": "Added project-local OpenCode custom commands for loading and saving AI-QA-LAB durable memory from the TUI.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000019.json",
+      "current_hash": "05136daa29762b6a1bc31e6dd878f6b0182dd2c077704d1d49e3bb85f643f4e4"
+    },
+    {
+      "id": "LLV1-000018",
+      "timestamp": "2026-04-11T15:06:00.000Z",
+      "module": "opencode-memory",
+      "type": "memory-governance",
+      "summary": "Clarified OpenCode memory behavior: compact is session compaction, while durable learning requires session resume plus AI-QA-LAB memory, runtime handoff, and learning-ledger updates.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000018.json",
+      "current_hash": "e52803700c7c220a8d9875aa70ce5d1b85d00d8d439021627be20a4f536170de"
+    }
+  ],
+  "workspace-specification": [
+    {
+      "id": "LLV1-000021",
+      "timestamp": "2026-04-12T02:35:10.000Z",
+      "module": "workspace-specification",
+      "type": "workspace-inventory",
+      "summary": "Generated root-level full specification for AI-QA-LAB covering workspace layout, Engineer agent capabilities, skills, prompts, commands, MCP integrations, runtime tools, knowledge sources, observability, safety guardrails, current VPN caveat, and recommended improvements.",
+      "path": "02-brain/learning-ledger/blocks/LLV1-000021.json",
+      "current_hash": "c4ba526d236d93da1481943c36279af4485697e26de59d77c27b1b073bfdeaff"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "version": "learning-ledger-v1",
+  "generated_at": "2026-04-12T02:37:56.997Z",
+  "active_module": "transaction-mapping",
+  "core_runtime": {
+    "context_handoff": "01-runtime/runtime/docs/CONTEXT_HANDOFF.md",
+    "active_module": "01-runtime/runtime/docs/ACTIVE_MODULE.md",
+    "last_run_summary": "01-runtime/runtime/docs/LAST_RUN_SUMMARY.md",
+    "blockers": "01-runtime/runtime/docs/BLOCKERS.md"
+  },
+  "reference_knowledge": {
+    "app_specific_testing_standards": "02-brain/distilled-output/global/app-specific-testing-standards.md",
+    "qa_standards_routing": "02-brain/distilled-output/global/qa-standards-routing.md",
+    "qa_standards_raw": "04-knowledge-raw/QA_STANDARDS",
+    "mom_raw": "04-knowledge-raw/MOM",
+    "business_flow_summary": "02-brain/distilled-output/global/business-flow-summary.md",
+    "raw_knowledge_catalog": "02-brain/distilled-output/global/raw-knowledge-catalog.md"
+  },
+  "modules": {
+    "transaction-mapping": {
+      "status": "active",
+      "knowledge_path": "02-brain/distilled-output/per-module/transaction-mapping",
+      "known_api": [
+        "GET /rbi/v1/dbs/api/billingitem/get-paging",
+        "POST /rbi/v1/dbs/api/billingitem"
+      ]
+    },
+    "monitoring-usage": {
+      "status": "bpmn-pending",
+      "knowledge_path": "02-brain/distilled-output/per-module/monitoring-usage",
+      "known_api": []
+    }
+  },
+  "global_patterns": [
+    "Prefer CDP attach over fresh login.",
+    "Classify network and VPN issues before recording product bugs.",
+    "Consult app-specific testing standards before generic QA standards when assertions depend on PGN Billing formatting, labels, list conventions, or UI evidence behavior.",
+    "Use QA standards on-demand by domain before classifying UI, API, automation, or test-data issues.",
+    "Use BPMN extraction on-demand only.",
+    "Prefer one unified `Engineer` role instead of separate explorer, logger, or debugger modes.",
+    "Prefer testing and analysis that connect application behavior, API evidence, and Oracle-backed DB reality.",
+    "Prefer MoM-aware testing when the topic is application behavior, approval rules, validation rules, or business flow.",
+    "Prefer extracted business-flow summaries over raw PDF re-reading when the flow has already been distilled.",
+    "Path: System Setup > Master Data > Transaction Mapping",
+    "URL: https://dev-energy.pgn.co.id/system-setup/billing-item",
+    "Status: **TESTING** - Validation scenarios tested",
+    "Open list page",
+    "Engineer is the only active QA operating role.",
+    "Use MoM when app behavior or business rules are under discussion.",
+    "Use Playwright MCP for precise UI interaction before falling back to ad-hoc scripts.",
+    "Refresh recall memory after each ledger append."
+  ],
+  "primary_agent": "engineer",
+  "current_mode": "engineer",
+  "active_agents": [
+    "engineer"
+  ],
+  "testing_infrastructure": {
+    "playwright_mcp": {
+      "enabled": true,
+      "server_name": "playwright_cdp",
+      "command_path": "01-runtime/tools/playwright-mcp-server.mjs"
+    },
+    "oracle_mcp": {
+      "enabled": true,
+      "server_name": "oracle_readonly",
+      "command_path": "01-runtime/tools/oracle-readonly-mcp-server.mjs"
+    },
+    "runtime_regression": "01-runtime/runtime/modules/run-active-module-regression.js"
+  },
+  "interaction_learning": {
+    "recall_index": "02-brain/.opencode/memory/RECALL_INDEX.md",
+    "user_preferences": "02-brain/.opencode/memory/USER_WORKING_PREFERENCES.md",
+    "auto_refresh_after_ledger_append": true,
+    "latest_ledger_block": "LLV1-000021"
+  },
+  "business_source_priority": [
+    "02-brain/distilled-output/global/raw-knowledge-catalog.md",
+    "02-brain/distilled-output/per-module/<module>/business-flow.md",
+    "01-runtime/artifacts/adhoc-notes/manual-flow-record-latest.md",
+    "04-knowledge-raw/MOM",
+    "04-knowledge-raw/BPMN_BISPRO on-demand extraction only",
+    "04-knowledge-raw/QA_STANDARDS smallest relevant domain only",
+    "05-observability/db-validation for safe read-only validation"
+  ]
+}

@@ -1,0 +1,2 @@
+timestamp,module,summary,step,expected,actual,severity,type
+2026-04-06T03:44:19.224Z,Transaction Mapping,Post-submit JS error after Confirm - "a is not a function",Click OK/Confirm after create form submission,No JS error after successful create,Data persists correctly but browser shows "a is not a function" error,Low,Frontend

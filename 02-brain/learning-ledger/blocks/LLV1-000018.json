@@ -1,0 +1,22 @@
+{
+  "id": "LLV1-000018",
+  "timestamp": "2026-04-11T15:06:00.000Z",
+  "module": "opencode-memory",
+  "agent": "engineer",
+  "type": "memory-governance",
+  "summary": "Clarified OpenCode memory behavior: compact is session compaction, while durable learning requires session resume plus AI-QA-LAB memory, runtime handoff, and learning-ledger updates.",
+  "derived_updates": [
+    "Added OPENCODE_MEMORY_GUIDE.md with the project-local start, continue, list, export, and import workflow.",
+    "Corrected Engineer and skill references from 01-runtime/runtime/*.md to 01-runtime/runtime/docs/*.md so new runs can read runtime handoff files reliably.",
+    "Verified current OpenCode SQLite storage is project-local and currently has zero sessions, zero messages, and zero todos after the reset."
+  ],
+  "evidence_refs": [
+    "01-runtime/runtime/docs/OPENCODE_MEMORY_GUIDE.md",
+    "01-runtime/runtime/docs/READY_COMMANDS.md",
+    "02-brain/.opencode/agents/engineer.md",
+    "02-brain/.opencode/skills/post-run-memory-updater/SKILL.md",
+    "02-brain/.opencode/config/workspace-rules.md"
+  ],
+  "previous_hash": "18de76bd9753c331604750ae166a0cce359b2a40e23e0fecdc4121caddba96aa",
+  "current_hash": "e52803700c7c220a8d9875aa70ce5d1b85d00d8d439021627be20a4f536170de"
+}

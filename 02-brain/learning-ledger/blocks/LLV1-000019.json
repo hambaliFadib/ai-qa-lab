@@ -1,0 +1,21 @@
+{
+  "id": "LLV1-000019",
+  "timestamp": "2026-04-11T15:08:05.000Z",
+  "module": "opencode-memory",
+  "agent": "engineer",
+  "type": "memory-governance",
+  "summary": "Added project-local OpenCode custom commands for loading and saving AI-QA-LAB durable memory from the TUI.",
+  "derived_updates": [
+    "Added /memory-load to read recall, user preferences, runtime handoff, current mission, next actions, learned flow, and bug patterns before continuing.",
+    "Added /memory-save to trigger post-run durable memory updates, module knowledge updates, learning-ledger append, and recall refresh.",
+    "Documented the custom commands in OPENCODE_MEMORY_GUIDE.md and READY_COMMANDS.md."
+  ],
+  "evidence_refs": [
+    "02-brain/.opencode/commands/memory-load.md",
+    "02-brain/.opencode/commands/memory-save.md",
+    "01-runtime/runtime/docs/OPENCODE_MEMORY_GUIDE.md",
+    "01-runtime/runtime/docs/READY_COMMANDS.md"
+  ],
+  "previous_hash": "e52803700c7c220a8d9875aa70ce5d1b85d00d8d439021627be20a4f536170de",
+  "current_hash": "05136daa29762b6a1bc31e6dd878f6b0182dd2c077704d1d49e3bb85f643f4e4"
+}

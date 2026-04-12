@@ -1,0 +1,22 @@
+{
+  "id": "LLV1-000011",
+  "timestamp": "2026-04-08T02:53:53.113Z",
+  "module": "global-brain",
+  "agent": "engineer",
+  "type": "engineer-rollout",
+  "summary": "Unified the workspace into a single Engineer role, added Playwright MCP, and upgraded recall memory with user preference capture.",
+  "derived_updates": [
+    "Archived Explorer, Logger, and Debugger into the legacy-agents archive and activated Engineer as the only active role.",
+    "Enabled local Playwright MCP alongside Oracle read-only MCP for more precise UI and app to DB analysis.",
+    "Added recall-index refresh and user-working-preferences memory so repeated interaction improves future runs."
+  ],
+  "evidence_refs": [
+    "02-brain/.opencode/agents/engineer.md",
+    "02-brain/.opencode/config/playwright-mcp-setup.md",
+    "01-runtime/tools/playwright-mcp-server.mjs",
+    "01-runtime/tools/refresh-recall-index.js",
+    "02-brain/.opencode/memory/USER_WORKING_PREFERENCES.md"
+  ],
+  "previous_hash": "cb70b45b25404a0cad528e87bd04ffcdc4eb70377de27a1c8dd8508b87fc5706",
+  "current_hash": "9d1f6bc18a35241149e795af954fc550d2df8b7dda5a57c0465c53ade3be859e"
+}

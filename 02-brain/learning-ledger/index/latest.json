@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-04-12T02:37:56.995Z",
+  "latest_block": {
+    "id": "LLV1-000021",
+    "timestamp": "2026-04-12T02:35:10.000Z",
+    "module": "workspace-specification",
+    "type": "workspace-inventory",
+    "summary": "Generated root-level full specification for AI-QA-LAB covering workspace layout, Engineer agent capabilities, skills, prompts, commands, MCP integrations, runtime tools, knowledge sources, observability, safety guardrails, current VPN caveat, and recommended improvements.",
+    "path": "02-brain/learning-ledger/blocks/LLV1-000021.json",
+    "current_hash": "c4ba526d236d93da1481943c36279af4485697e26de59d77c27b1b073bfdeaff"
+  },
+  "block_count": 21,
+  "latest_hash": "c4ba526d236d93da1481943c36279af4485697e26de59d77c27b1b073bfdeaff"
+}

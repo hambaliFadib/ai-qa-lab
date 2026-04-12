@@ -1,0 +1,22 @@
+{
+  "id": "LLV1-000020",
+  "timestamp": "2026-04-11T15:17:00.101Z",
+  "module": "tax-code",
+  "agent": "engineer",
+  "type": "bug-confirmation-condition-enddate-autofill",
+  "summary": "Confirmed Tax Code condition-row bug: End Date auto-populates to Start Date after save even when End Date was not explicitly entered.",
+  "derived_updates": [
+    "Tax Code Condition row on Create page can persist END DATE equal to START DATE without explicit End Date input.",
+    "Issue is a user-visible functional/data-integrity defect, not only an automation caveat.",
+    "Bug report was sent to Telegram with role context: qautomation (End User)."
+  ],
+  "evidence_refs": [
+    "01-runtime/artifacts/adhoc-notes/tax-code-condition-list-current-state.json",
+    "01-runtime/artifacts/screenshots/tax-code-condition-list-current-state.png",
+    "05-observability/telegram-reporting/outbox/20260411T151408Z--tax-code-end-date-pada-condition-auto-terisi-mengikuti-start-date-meski-end-date-tidak-diinput.json",
+    "01-runtime/runtime/docs/LAST_RUN_SUMMARY.md",
+    "02-brain/distilled-output/per-module/tax-code/test-notes.md"
+  ],
+  "previous_hash": "05136daa29762b6a1bc31e6dd878f6b0182dd2c077704d1d49e3bb85f643f4e4",
+  "current_hash": "8297e8159e0eca297bf567d0d14b0a2d1e025611f08c6f21eaa7de9f232d4312"
+}

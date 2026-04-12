@@ -1,0 +1,29 @@
+{
+  "version": "oracle-testdata-plan-v1",
+  "module": "example-module",
+  "purpose": "Seed narrowly scoped test data for one test scenario.",
+  "owner": "PGNBILL",
+  "confirmation_token": "CONFIRM_EXAMPLE_TESTDATA_PLAN",
+  "allowed_operations": [
+    "insert"
+  ],
+  "max_affected_rows": 5,
+  "statements": [
+    {
+      "id": "example-insert",
+      "sql": "insert into PGNBILL.EXAMPLE_TABLE (EXAMPLE_CODE, EXAMPLE_NAME) values (:EXAMPLE_CODE, :EXAMPLE_NAME)",
+      "binds": {
+        "EXAMPLE_CODE": "QA_EXAMPLE_001",
+        "EXAMPLE_NAME": "QA example test data"
+      }
+    }
+  ],
+  "verification": [
+    {
+      "description": "Replace with a read-only query that proves the inserted test data exists.",
+      "sql": "select 1 as ok from dual",
+      "binds": {}
+    }
+  ],
+  "cleanup_note": "Document how to identify and clean this test data if cleanup is later needed."
+}

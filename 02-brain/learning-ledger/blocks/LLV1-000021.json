@@ -1,0 +1,23 @@
+{
+  "id": "LLV1-000021",
+  "timestamp": "2026-04-12T02:35:10.000Z",
+  "module": "workspace-specification",
+  "agent": "engineer",
+  "type": "workspace-inventory",
+  "summary": "Generated root-level full specification for AI-QA-LAB covering workspace layout, Engineer agent capabilities, skills, prompts, commands, MCP integrations, runtime tools, knowledge sources, observability, safety guardrails, current VPN caveat, and recommended improvements.",
+  "derived_updates": [
+    "Saved full workspace specification to AI-QA-LAB_FULL_SPEC.md at workspace root.",
+    "Documented current MCP list as connected for playwright_cdp, oracle_readonly, oracle_testdata, and telegram_bug_reporter while marking app and Oracle live access as VPN-blocked.",
+    "Identified placeholder skills fast-happy-path and network-response-observer as gaps for future implementation."
+  ],
+  "evidence_refs": [
+    "AI-QA-LAB_FULL_SPEC.md",
+    "opencode.json",
+    "02-brain/.opencode/agents/engineer.md",
+    "02-brain/.opencode/config/workspace-rules.md",
+    "01-runtime/runtime/docs/OPENCODE_MEMORY_GUIDE.md",
+    "05-observability/telegram-reporting/outbox/20260412T023008Z--ai-workspace-spec-telegram-dry-run.json"
+  ],
+  "previous_hash": "8297e8159e0eca297bf567d0d14b0a2d1e025611f08c6f21eaa7de9f232d4312",
+  "current_hash": "c4ba526d236d93da1481943c36279af4485697e26de59d77c27b1b073bfdeaff"
+}

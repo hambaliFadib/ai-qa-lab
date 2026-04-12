@@ -1,0 +1,20 @@
+# Local dependencies
+01-runtime/node_modules/
+01-runtime/runtime/node_modules/
+02-brain/.opencode/node_modules/
+
+# Sensitive local auth and DB access
+03-auth/chrome-profile/
+03-auth/user-data/
+03-auth/state/*.json
+03-auth/notes/
+03-auth/screenshots/
+02-brain/.opencode/config/oracle-readonly.local.env
+02-brain/.opencode/config/oracle-wallet/
+02-brain/.opencode/config/telegram-bug-reporter.local.env
+02-brain/.opencode/config/telegram-bug-reporter.env
+
+# Runtime evidence and disposable state
+01-runtime/artifacts/
+01-runtime/temp/
+99-archive/assistant-temp/

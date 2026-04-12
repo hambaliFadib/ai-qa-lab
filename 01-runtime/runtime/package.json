@@ -1,0 +1,19 @@
+{
+  "name": "pgn-billing-ai-qa-runtime",
+  "private": true,
+  "scripts": {
+    "open:pgn": "node access/open-pgn.js",
+    "check:access": "node access/cdp-connect.js",
+    "check:cdp": "node ..\\tools\\check-cdp.js",
+    "run:open": "node ..\\tools\\run-pgn.js open",
+    "regression:happy": "node modules/run-active-module-regression.js --mode happy",
+    "regression:negative": "node modules/run-active-module-regression.js --mode negative",
+    "regression:edge": "node modules/run-active-module-regression.js --mode edge",
+    "regression:full": "node modules/run-active-module-regression.js --mode full",
+    "record:manual": "node capture/manual-flow-recorder.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "playwright": "^1.59.1"
+  }
+}
