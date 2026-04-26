@@ -1,0 +1,231 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "falid-bg": "#0f1722",
+    "falid-panel": "#152133",
+    "falid-element": "#1b2a40",
+    "falid-border": "#27415f",
+    "falid-border-active": "#2f6f8f",
+    "falid-text": "#d9e6f2",
+    "falid-text-muted": "#91a3b8",
+    "falid-primary": "#38b2c9",
+    "falid-secondary": "#4fd1c5",
+    "falid-accent": "#7dd3fc",
+    "falid-warning": "#f6ad55",
+    "falid-error": "#f56565",
+    "falid-success": "#48bb78",
+    "falid-info": "#63b3ed",
+    "falid-code": "#9ae6b4",
+    "falid-link": "#7dd3fc",
+    "falid-heading": "#67e8f9",
+    "falid-light-bg": "#f4f7fb",
+    "falid-light-panel": "#e6edf5",
+    "falid-light-element": "#d8e2ee",
+    "falid-light-border": "#9fb3c8",
+    "falid-light-border-active": "#2f6f8f",
+    "falid-light-text": "#102033",
+    "falid-light-text-muted": "#4f647a"
+  },
+  "theme": {
+    "primary": {
+      "dark": "falid-primary",
+      "light": "falid-primary"
+    },
+    "secondary": {
+      "dark": "falid-secondary",
+      "light": "falid-secondary"
+    },
+    "accent": {
+      "dark": "falid-accent",
+      "light": "falid-accent"
+    },
+    "error": {
+      "dark": "falid-error",
+      "light": "falid-error"
+    },
+    "warning": {
+      "dark": "falid-warning",
+      "light": "falid-warning"
+    },
+    "success": {
+      "dark": "falid-success",
+      "light": "falid-success"
+    },
+    "info": {
+      "dark": "falid-info",
+      "light": "falid-info"
+    },
+    "text": {
+      "dark": "falid-text",
+      "light": "falid-light-text"
+    },
+    "textMuted": {
+      "dark": "falid-text-muted",
+      "light": "falid-light-text-muted"
+    },
+    "background": {
+      "dark": "falid-bg",
+      "light": "falid-light-bg"
+    },
+    "backgroundPanel": {
+      "dark": "falid-panel",
+      "light": "falid-light-panel"
+    },
+    "backgroundElement": {
+      "dark": "falid-element",
+      "light": "falid-light-element"
+    },
+    "border": {
+      "dark": "falid-border",
+      "light": "falid-light-border"
+    },
+    "borderActive": {
+      "dark": "falid-border-active",
+      "light": "falid-light-border-active"
+    },
+    "borderSubtle": {
+      "dark": "falid-border",
+      "light": "falid-light-border"
+    },
+    "diffAdded": {
+      "dark": "falid-success",
+      "light": "falid-success"
+    },
+    "diffRemoved": {
+      "dark": "falid-error",
+      "light": "falid-error"
+    },
+    "diffContext": {
+      "dark": "falid-text-muted",
+      "light": "falid-light-text-muted"
+    },
+    "diffHunkHeader": {
+      "dark": "falid-secondary",
+      "light": "falid-secondary"
+    },
+    "diffHighlightAdded": {
+      "dark": "falid-success",
+      "light": "falid-success"
+    },
+    "diffHighlightRemoved": {
+      "dark": "falid-error",
+      "light": "falid-error"
+    },
+    "diffAddedBg": {
+      "dark": "#173323",
+      "light": "#dff5e7"
+    },
+    "diffRemovedBg": {
+      "dark": "#341a1d",
+      "light": "#fde8e8"
+    },
+    "diffContextBg": {
+      "dark": "falid-panel",
+      "light": "falid-light-panel"
+    },
+    "diffLineNumber": {
+      "dark": "falid-text-muted",
+      "light": "falid-light-text-muted"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#173323",
+      "light": "#dff5e7"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#341a1d",
+      "light": "#fde8e8"
+    },
+    "markdownText": {
+      "dark": "falid-text",
+      "light": "falid-light-text"
+    },
+    "markdownHeading": {
+      "dark": "falid-heading",
+      "light": "falid-primary"
+    },
+    "markdownLink": {
+      "dark": "falid-link",
+      "light": "falid-primary"
+    },
+    "markdownLinkText": {
+      "dark": "falid-accent",
+      "light": "falid-primary"
+    },
+    "markdownCode": {
+      "dark": "falid-code",
+      "light": "falid-success"
+    },
+    "markdownBlockQuote": {
+      "dark": "falid-text-muted",
+      "light": "falid-light-text-muted"
+    },
+    "markdownEmph": {
+      "dark": "falid-warning",
+      "light": "falid-warning"
+    },
+    "markdownStrong": {
+      "dark": "falid-accent",
+      "light": "falid-primary"
+    },
+    "markdownHorizontalRule": {
+      "dark": "falid-border",
+      "light": "falid-light-border"
+    },
+    "markdownListItem": {
+      "dark": "falid-secondary",
+      "light": "falid-secondary"
+    },
+    "markdownListEnumeration": {
+      "dark": "falid-accent",
+      "light": "falid-primary"
+    },
+    "markdownImage": {
+      "dark": "falid-primary",
+      "light": "falid-primary"
+    },
+    "markdownImageText": {
+      "dark": "falid-accent",
+      "light": "falid-primary"
+    },
+    "markdownCodeBlock": {
+      "dark": "falid-code",
+      "light": "falid-success"
+    },
+    "syntaxComment": {
+      "dark": "falid-text-muted",
+      "light": "falid-light-text-muted"
+    },
+    "syntaxKeyword": {
+      "dark": "falid-primary",
+      "light": "falid-primary"
+    },
+    "syntaxFunction": {
+      "dark": "falid-accent",
+      "light": "falid-primary"
+    },
+    "syntaxVariable": {
+      "dark": "falid-text",
+      "light": "falid-light-text"
+    },
+    "syntaxString": {
+      "dark": "falid-code",
+      "light": "falid-success"
+    },
+    "syntaxNumber": {
+      "dark": "falid-warning",
+      "light": "falid-warning"
+    },
+    "syntaxType": {
+      "dark": "falid-secondary",
+      "light": "falid-secondary"
+    },
+    "syntaxOperator": {
+      "dark": "falid-accent",
+      "light": "falid-primary"
+    },
+    "syntaxPunctuation": {
+      "dark": "falid-text",
+      "light": "falid-light-text"
+    }
+  }
+}
