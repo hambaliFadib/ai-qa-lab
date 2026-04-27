@@ -5,9 +5,7 @@ const { paths, ensureDir, writeJson, writeText } = require("./workspace-paths");
 
 const ENV_CANDIDATES = [
   path.join(paths.opencodeDir, "config", "telegram-bug-reporter.local.env"),
-  path.join(paths.opencodeDir, "config", "telegram-bug-reporter.env"),
   path.join(paths.rootDir, ".opencode", "config", "telegram-bug-reporter.local.env"),
-  path.join(paths.rootDir, ".opencode", "config", "telegram-bug-reporter.env"),
 ];
 const TELEGRAM_API_BASE = "https://api.telegram.org";
 const MAX_MESSAGE_LENGTH = 4096;
@@ -68,7 +66,7 @@ function printUsage() {
       "  --send               Send to Telegram; default is dry-run only",
       "  --help               Show this help",
       "",
-      "Dry-run is the default. Configure Telegram in 02-brain\\.opencode\\config\\telegram-bug-reporter.local.env or telegram-bug-reporter.env.",
+      "Dry-run is the default. Configure Telegram in 02-brain\\.opencode\\config\\telegram-bug-reporter.local.env.",
     ].join("\n")
   );
   process.stdout.write("\n");

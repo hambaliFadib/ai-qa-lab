@@ -1,0 +1,117 @@
+{
+  "schema_version": "ai-qa-lab.selector-registry.v1",
+  "module_key": "transaction-mapping",
+  "module_name": "Transaction Mapping",
+  "updated_at": "2026-04-12T00:00:00.000Z",
+  "selectors": {
+    "list": {
+      "create_button": {
+        "strategy": "visible_text_button",
+        "candidates": [
+          "button:has-text(\"Create Transaction Mapping\")",
+          "button:has-text(\"Create\")",
+          "a:has-text(\"Create Transaction Mapping\")",
+          "a:has-text(\"Create\")"
+        ],
+        "fallback": "direct_create_url",
+        "confidence": "medium",
+        "observations": {
+          "pass_count": 0,
+          "fail_count": 0,
+          "last_seen_at": null,
+          "last_note": null
+        }
+      },
+      "table": {
+        "strategy": "ant_table",
+        "candidates": [
+          ".ant-table",
+          "table"
+        ],
+        "confidence": "high"
+      }
+    },
+    "create": {
+      "fields": {
+        "name": {
+          "selector": "input#name",
+          "confidence": "high"
+        },
+        "description": {
+          "selector": "textarea",
+          "confidence": "medium"
+        },
+        "category": {
+          "selector": "input#billingItemCategory",
+          "visible_wrapper": "xpath=ancestor::*[contains(@class, 'ant-select')][1]",
+          "confidence": "high"
+        },
+        "type": {
+          "selector": "input#type",
+          "visible_wrapper": "xpath=ancestor::*[contains(@class, 'ant-select')][1]",
+          "confidence": "high"
+        },
+        "billType": {
+          "selector": "input#billType",
+          "visible_wrapper": "xpath=ancestor::*[contains(@class, 'ant-select')][1]",
+          "confidence": "high"
+        },
+        "criteria": {
+          "selector": "input#criteria",
+          "visible_wrapper": "xpath=ancestor::*[contains(@class, 'ant-select')][1]",
+          "confidence": "high"
+        },
+        "startDate": {
+          "selector": "input#startDate",
+          "confidence": "high"
+        },
+        "approvalHierarchy": {
+          "selector": "input#apphierId",
+          "visible_wrapper": "xpath=ancestor::*[contains(@class, 'ant-select')][1]",
+          "confidence": "medium",
+          "notes": "Approval hierarchy can render lazily; treat timeout as automation caveat until product failure is proven."
+        }
+      },
+      "buttons": {
+        "next": {
+          "candidates": [
+            "button:has-text(\"Next\")"
+          ],
+          "confidence": "high"
+        },
+        "submit": {
+          "candidates": [
+            "button:has-text(\"Submit\")"
+          ],
+          "confidence": "medium"
+        },
+        "confirm": {
+          "candidates": [
+            "button:has-text(\"Confirm\")",
+            "button:has-text(\"OK\")"
+          ],
+          "confidence": "medium"
+        },
+        "chooseFile": {
+          "candidates": [
+            "button:has-text(\"Choose File\")"
+          ],
+          "confidence": "medium"
+        }
+      },
+      "attachment_modal": {
+        "root": "[role=\"dialog\"]",
+        "category": "input#category",
+        "file_input": "input[type=file]",
+        "save_button": "button:has-text(\"Save\")",
+        "confidence": "medium"
+      },
+      "dropdown": {
+        "active_panel": ".ant-select-dropdown:visible",
+        "option": ".ant-select-item-option-content",
+        "confidence": "high",
+        "notes": "Click visible Ant Design wrapper, not only hidden input."
+      }
+    }
+  }
+}

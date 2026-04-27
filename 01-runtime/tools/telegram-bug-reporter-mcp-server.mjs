@@ -12,9 +12,7 @@ const rootDir = path.resolve(__dirname, "..", "..");
 const reporterPath = path.join(rootDir, "01-runtime", "tools", "telegram-bug-reporter.js");
 const configCandidates = [
   path.join(rootDir, "02-brain", ".opencode", "config", "telegram-bug-reporter.local.env"),
-  path.join(rootDir, "02-brain", ".opencode", "config", "telegram-bug-reporter.env"),
   path.join(rootDir, ".opencode", "config", "telegram-bug-reporter.local.env"),
-  path.join(rootDir, ".opencode", "config", "telegram-bug-reporter.env"),
 ];
 const outboxDir = path.join(rootDir, "05-observability", "telegram-reporting", "outbox");
 const templateDir = path.join(rootDir, "06-testing", "bug-reports", "telegram");

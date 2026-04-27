@@ -368,7 +368,7 @@ Staged comparison prompts to run inside OpenCode after artifacts exist:
 - `node ..\tools\telegram-bug-reporter.js --get-updates --label chat-discovery`
 - `node ..\tools\telegram-bug-reporter.js --input ..\..\06-testing\bug-reports\telegram\<bug>.json --send`
 
-Dry-run is the default and writes artifacts to `05-observability/telegram-reporting/outbox/`. Fill `02-brain/.opencode/config/telegram-bug-reporter.local.env` or `02-brain/.opencode/config/telegram-bug-reporter.env` before using `--send`.
+Dry-run is the default and writes artifacts to `05-observability/telegram-reporting/outbox/`. Fill `02-brain/.opencode/config/telegram-bug-reporter.local.env` before using `--send`.
 
 ## Fixtures
 

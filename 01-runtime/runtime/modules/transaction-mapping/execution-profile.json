@@ -1,0 +1,145 @@
+{
+  "schema_version": "ai-qa-lab.module-execution-profile.v1",
+  "module_key": "transaction-mapping",
+  "module_name": "Transaction Mapping",
+  "page_entry": {
+    "menu_path": "System Setup > Master Data > Transaction Mapping",
+    "list_url": "https://dev-energy.pgn.co.id/system-setup/billing-item",
+    "create_url": "https://dev-energy.pgn.co.id/system-setup/billing-item/create",
+    "url_fragment": "billing-item"
+  },
+  "create_button_strategy": {
+    "preferred_texts": [
+      "Create Transaction Mapping",
+      "Create",
+      "Add"
+    ],
+    "fallback": "navigate_direct_to_create_url",
+    "notes": "Prefer visible button text on list page. Direct create URL is allowed only for smoke/happy-path setup when list page is already reachable."
+  },
+  "mandatory_field_order": [
+    {
+      "step": 1,
+      "field": "billingItemCategory",
+      "label": "Category",
+      "type": "ant_select"
+    },
+    {
+      "step": 1,
+      "field": "type",
+      "label": "Type",
+      "type": "ant_select"
+    },
+    {
+      "step": 1,
+      "field": "name",
+      "label": "Name",
+      "type": "input"
+    },
+    {
+      "step": 1,
+      "field": "billType",
+      "label": "Bill Type",
+      "type": "ant_select"
+    },
+    {
+      "step": 1,
+      "field": "criteria",
+      "label": "Criteria",
+      "type": "ant_select"
+    },
+    {
+      "step": 1,
+      "field": "startDate",
+      "label": "Start Date",
+      "type": "date_picker"
+    },
+    {
+      "step": 1,
+      "field": "description",
+      "label": "Description",
+      "type": "textarea"
+    },
+    {
+      "step": 2,
+      "field": "apphierId",
+      "label": "Approval Hierarchy",
+      "type": "ant_select"
+    },
+    {
+      "step": 3,
+      "field": "category",
+      "label": "Attachment Category",
+      "type": "ant_select"
+    },
+    {
+      "step": 3,
+      "field": "attachment",
+      "label": "Attachment File",
+      "type": "file"
+    }
+  ],
+  "safe_action_order": [
+    "listSmoke",
+    "createSmoke",
+    "edgeCase",
+    "happyPath"
+  ],
+  "expected_validation_behavior": {
+    "step_one_required_errors": [
+      "Please input your Category!",
+      "Please input your Type!",
+      "Please input your Name!",
+      "Please input your Bill Type!",
+      "Please input your Criteria!",
+      "Please input your Start Date!",
+      "Please input your Description!"
+    ],
+    "missing_approval_errors": [
+      "Please input your Approval Hierarchy!"
+    ]
+  },
+  "safety": {
+    "safe_submit_allowed_by_profile": true,
+    "safe_submit_reason": "Transaction Mapping create flow was previously verified in dev with QA-prefixed generated data and a dummy attachment fixture.",
+    "stop_if_list_smoke_fails": true,
+    "stop_if_create_smoke_fails": true
+  },
+  "network_observation": {
+    "url_contains": [
+      "/rbi/v1/dbs/api/billingitem/"
+    ],
+    "expected_endpoints": [
+      "get-paging",
+      "get-billing-category",
+      "generate-code",
+      "approval-hierarchies-detail",
+      "category-attachment-get",
+      "validate-create",
+      "create",
+      "attachment-upload"
+    ]
+  },
+  "bug_classification_rules": {
+    "bug": "Use only when product behavior contradicts expected flow after environment and script issues are ruled out.",
+    "expected_validation": "Use when required-field or business guardrail validation appears as expected.",
+    "script_false_positive": "Use when selectors, timing, hidden Ant Design inputs, or automation flow fail before product behavior is proven.",
+    "blocked_by_business_rule": "Use when valid reference data, permission, approval, or workflow rule blocks the scenario.",
+    "needs_manual_review": "Use when evidence is incomplete, VPN/app access is blocked, or UI/API/DB signals conflict."
+  },
+  "result_schema": {
+    "required_sections": [
+      "listSmoke",
+      "createSmoke",
+      "happyPath",
+      "edgeCase"
+    ],
+    "classification_values": [
+      "bug",
+      "expected_validation",
+      "script_false_positive",
+      "blocked_by_business_rule",
+      "needs_manual_review"
+    ]
+  }
+}

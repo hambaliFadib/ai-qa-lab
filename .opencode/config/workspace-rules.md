@@ -46,6 +46,6 @@
 ## Telegram Reporting Safety
 
 - Telegram bug reporting must use `telegram_bug_reporter` or `01-runtime/tools/telegram-bug-reporter.js`.
-- Keep `02-brain/.opencode/config/telegram-bug-reporter.local.env` and `02-brain/.opencode/config/telegram-bug-reporter.env` local-only and ignored.
+- Keep `02-brain/.opencode/config/telegram-bug-reporter.local.env` local-only and ignored.
 - Dry-run is the default; sending requires explicit `--send` or MCP `send=true`.
 - Do not paste credentials, session tokens, DB passwords, or raw auth artifacts into Telegram messages.

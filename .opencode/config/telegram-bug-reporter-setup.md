@@ -3,7 +3,7 @@
 1. Create or reuse a Telegram bot using BotFather.
 2. Add the bot to the target bug-reporting group.
 3. Give the bot permission to post messages.
-4. Copy `02-brain/.opencode/config/telegram-bug-reporter.env.example` to `02-brain/.opencode/config/telegram-bug-reporter.local.env`, or fill `02-brain/.opencode/config/telegram-bug-reporter.env` if you prefer that name.
+4. Copy `02-brain/.opencode/config/telegram-bug-reporter.local.env.example` to `02-brain/.opencode/config/telegram-bug-reporter.local.env`.
 5. Fill `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`.
 6. If the group uses topics, fill `TELEGRAM_THREAD_ID`.
 
